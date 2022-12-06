@@ -38,6 +38,7 @@ hr{
     line-height:30px;
     color:purple;
     text-shadow: 1px 1px 1px;
+    box-shadow:5px 4px 1px purple;
 }
 .box4{
    background-image: url(./image.jpg);
@@ -51,6 +52,7 @@ hr{
    background-color: aliceblue;
    position:relative;
    left:1000px;
+   box-shadow:5px 4px 1px purple;
 }
 .box5{
     border: 4px solid red;
@@ -65,6 +67,7 @@ hr{
     top: 300px;
     right: 415px;
     text-shadow: 1px 1px 1px;
+    box-shadow:5px 4px 1px purple;
 }
 .box6{
     border: 4px solid red;
@@ -77,6 +80,7 @@ hr{
     left: 580px;
     top: 300px;
     text-shadow: 1px 1px 1px;
+    box-shadow:5px 4px 1px purple;
 }
 .submit{
     background-color: red;
@@ -91,10 +95,10 @@ hr{
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-   
+    margin-top:30px;
 }
 .table{
-    border:4px solid red;
+    border:4px solid purple;
     
     width:825px;
     height:810px;
@@ -156,6 +160,7 @@ hr{
     left: 600px;
     text-align:center;
     padding-top:10px;
+    box-shadow:5px 4px 1px purple;
 }
 .p1{
     font-size:1.1rem;
